@@ -1,0 +1,7 @@
+herdr-app.sock
+window.json
+view.json
+shared.json
+AGENTS.md
+data/*
+telemetry/*
