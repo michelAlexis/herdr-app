@@ -1,28 +1,28 @@
 {
   "agents": {
-    "main.js": "29fd05c09d209f02",
-    "mod.json": "fd1043a5cdf970ff"
+    "main.js": "1cf79c0c5f578fcd",
+    "mod.json": "c1d087260ba7b076"
   },
   "changes": {
-    "changes.svg": "e434fb66500d57aa",
-    "main.js": "61d1b51d29eb8660",
-    "mod.json": "83772b7037a693e3"
+    "changes.svg": "8a5b4c45adcb0ef1",
+    "main.js": "9e8641b43ed1a08b",
+    "mod.json": "433fbf9dfa3e359a"
   },
   "confirm": {
-    "main.js": "69187599b55cf274",
-    "mod.json": "83772b7037a693e3"
+    "main.js": "ab8a063c8532a03f",
+    "mod.json": "433fbf9dfa3e359a"
   },
   "files": {
-    "chevron-down.svg": "50568ece8b1e23fd",
-    "chevron-right.svg": "89ee99f728454128",
-    "file.svg": "dad25d5b13173e65",
-    "folder.svg": "d3be868b5d88e277",
-    "main.js": "10d00fedd3ec23dd",
-    "mod.json": "83772b7037a693e3"
+    "chevron-down.svg": "43b9f11a785c8653",
+    "chevron-right.svg": "7867764fc431794c",
+    "file.svg": "316c5ba4beaebfe1",
+    "folder.svg": "64e7b5165472b129",
+    "main.js": "2bdffad7d8a01f8b",
+    "mod.json": "433fbf9dfa3e359a"
   },
   "help": {
-    "main.js": "baec3bc91d9ea937",
-    "mod.json": "83772b7037a693e3"
+    "main.js": "bbec02b722cce59e",
+    "mod.json": "433fbf9dfa3e359a"
   },
   "layout:main": {
     "json": "d25b961ea961fba1"
@@ -34,80 +34,80 @@
     "json": "657fdb5a0f469344"
   },
   "machine-add": {
-    "main.js": "ba560ad1ec96c171",
-    "mod.json": "dc8f6dbff7c94efd"
+    "main.js": "e72d2e8416071893",
+    "mod.json": "20fc0fe012d028a0"
   },
   "menu": {
-    "main.js": "bf93981d91b8c04e",
-    "mod.json": "83772b7037a693e3"
+    "main.js": "54b66f522e6e075f",
+    "mod.json": "433fbf9dfa3e359a"
   },
   "new-menu": {
-    "main.js": "aa68de7e1e5c1a14",
-    "mod.json": "83772b7037a693e3"
+    "main.js": "2f13095cb116c3cf",
+    "mod.json": "433fbf9dfa3e359a"
   },
   "pane": {
-    "close.svg": "49fddbd2be2aef6d",
-    "main.js": "8f719e5a4470c08c",
-    "mod.json": "b86d10de33d662ea",
-    "split-down.svg": "639cc4e4c0b1658e",
-    "split-right.svg": "a558013581934bb1",
-    "unzoom.svg": "86acef3bcfd7464e",
-    "zoom.svg": "2e1f2f127e28af1a"
+    "close.svg": "a5b3c4e8f1b96e70",
+    "main.js": "319ae828b1629cd2",
+    "mod.json": "100e8915b26fb6b1",
+    "split-down.svg": "5fb017357dcb7d15",
+    "split-right.svg": "3f66f78fb7e964b4",
+    "unzoom.svg": "00b7ef24094e3955",
+    "zoom.svg": "4b2c0cf1547241c1"
   },
   "peek": {
-    "main.js": "ba9262d684a8f4a0",
-    "mod.json": "d2f1427248c1fa30"
+    "main.js": "a28e16789a3fe87e",
+    "mod.json": "4f60f6ff15f11c9b"
   },
   "picker": {
-    "main.js": "aadaa773af1ef758",
-    "mod.json": "656bafbef5335f05"
+    "main.js": "926f800a7c1ee141",
+    "mod.json": "e83a267b6fca8488"
   },
   "prompt": {
-    "main.js": "362be65d41815a6c",
-    "mod.json": "83772b7037a693e3"
+    "main.js": "f8a36b638f42a48c",
+    "mod.json": "433fbf9dfa3e359a"
   },
   "spaces": {
-    "main.js": "0709289abe6b2987",
-    "mod.json": "632f2bc9bd7a8fbc"
+    "main.js": "aa75ee3128eef9b9",
+    "mod.json": "4a42ed2202338077"
   },
   "tabs": {
-    "main.js": "4d7d4c04f2ce7925",
-    "mod.json": "82f874482a2c7949",
-    "win-close.svg": "43487517a24e69cd",
-    "win-max.svg": "49e5c05ecbcd7ff6",
-    "win-min.svg": "5f0260126336ed24",
-    "win-restore.svg": "41437f0f74a3b044"
+    "main.js": "ff113941edac1a02",
+    "mod.json": "a504d5ac991bc4cc",
+    "win-close.svg": "ca74932a6d3f1a90",
+    "win-max.svg": "4bbb4fb6a79ab51d",
+    "win-min.svg": "b86a99b42001e95f",
+    "win-restore.svg": "188630362d9549bf"
   },
   "terminals-bar": {
-    "command.svg": "44ca21b9d3a41411",
-    "main.js": "c9a75b6437e2ef83",
-    "mod.json": "5704496094873d58",
-    "plus.svg": "6d91d85944173369",
-    "stack.svg": "f2b32c5ee9fe2164",
-    "win-close.svg": "255c97106543a70f",
-    "win-max.svg": "7538fdf4ad32b679",
-    "win-min.svg": "abe5703710d18902",
-    "win-restore.svg": "621cb45eb4df02b8"
+    "command.svg": "c5fc08a116d98ad4",
+    "main.js": "9f1c34888aeab6f1",
+    "mod.json": "54ccf8a62e3ea8c3",
+    "plus.svg": "74cb7ba465f7d22c",
+    "stack.svg": "6277becec8a1441f",
+    "win-close.svg": "b960211fd126fa26",
+    "win-max.svg": "c7dd5af4cad81adc",
+    "win-min.svg": "b0288bef0f56fc49",
+    "win-restore.svg": "b9df7177188b5de3"
   },
   "terminals-pane": {
-    "main.js": "23fd9192c90df8dd",
-    "mod.json": "88086b4cbc1378f5"
+    "main.js": "0d61677718c93ea3",
+    "mod.json": "d8c5e5fe692faad8"
   },
   "toast": {
-    "main.js": "8c390466fe218e3a",
-    "mod.json": "83772b7037a693e3"
+    "main.js": "170541ea3a0600b4",
+    "mod.json": "433fbf9dfa3e359a"
   },
   "win98": {
-    "README.md": "cf558aa05491db28",
-    "art/generate.ts": "24d5ec717fbdcaa8",
+    "README.md": "af77c627bbb0a11d",
+    "art/generate.ts": "4494301acd1c2636",
     "art/logo.svg": "96e24d64a9be682d",
-    "art/sheet.ts": "8cea7bd90a106bff",
-    "art/sounds.ts": "8bc1232934774a63",
-    "clippy.js": "2214b251d4a2e024",
-    "desktop.js": "ae2e4032e2119b60",
-    "dialog.js": "0c03f2e3305862a4",
-    "fonts/LICENSE-MSSansSerif.txt": "9ef5192ac3ca5e21",
-    "fonts/LICENSE-PxPlus.txt": "e512a1d4d823a83f",
+    "art/sheet.ts": "3aee6a50a26fc571",
+    "art/sounds.ts": "e77010496110c14c",
+    "clippy.js": "286a80c4120638f8",
+    "desktop.js": "0ebcff86d2e835fe",
+    "dialog.js": "dc40f5f169fce816",
+    "fonts/LICENSE-MSSansSerif.txt": "98ed307c3f61afbe",
+    "fonts/LICENSE-PxPlus.txt": "0f81b235cae14003",
     "fonts/PixelatedMSSansSerif-Bold.ttf": "b1918b7ae2710380",
     "fonts/PixelatedMSSansSerif-Regular.ttf": "394d2a201a95af9f",
     "fonts/PxPlus_IBM_VGA_8x16.ttf": "b23c9da05306fb31",
@@ -155,14 +155,14 @@
     "icons/info.svg": "14e8006850ff5b87",
     "icons/logoff-sm.svg": "dbf7ac1b169e773d",
     "icons/logoff.svg": "27c80e9e08663923",
-    "icons/mines-face-cool.svg": "44f0da6ff0349efa",
-    "icons/mines-face-dead.svg": "76c75ce093478f73",
-    "icons/mines-face-ooh.svg": "27a15e140adbdb03",
-    "icons/mines-face-smile.svg": "31ab38427d3554bf",
-    "icons/mines-flag.svg": "cdffb8b5e6cff652",
-    "icons/mines-mine.svg": "4b1c506c6534eb47",
+    "icons/mines-face-cool.svg": "21ad0bcab40be261",
+    "icons/mines-face-dead.svg": "e0db7c87df61e3ca",
+    "icons/mines-face-ooh.svg": "33e2faf3affd01fa",
+    "icons/mines-face-smile.svg": "9a03fae9337cddb6",
+    "icons/mines-flag.svg": "65a5e8d3b11511b9",
+    "icons/mines-mine.svg": "dede4acd0c9758fe",
     "icons/mines-sm.svg": "b8c5c73269b005bc",
-    "icons/mines-wrong.svg": "1f3711befb8923b4",
+    "icons/mines-wrong.svg": "c27d898607a3f08f",
     "icons/mines.svg": "dcd8376644368a24",
     "icons/netdrive-sm.svg": "be65726bef0bd03e",
     "icons/netdrive.svg": "a4547c6fe7e5dff3",
@@ -176,8 +176,8 @@
     "icons/programs.svg": "dba088761a5029c0",
     "icons/question-sm.svg": "6a2cba9806d0e1df",
     "icons/question.svg": "c5fc09a52e34e15d",
-    "icons/radio-off.svg": "e3e200ca125055d7",
-    "icons/radio-on.svg": "2944c94fdf1356a1",
+    "icons/radio-off.svg": "8ed8dab104295c2e",
+    "icons/radio-on.svg": "14718cbabd6c5604",
     "icons/rename-sm.svg": "47fcb7aa6748ff72",
     "icons/rename.svg": "910635c6c624d8f9",
     "icons/run-sm.svg": "e775944ecf4cc9b1",
@@ -321,12 +321,12 @@
     "img/sol-select-3-8.svg": "f52a2c871459538c",
     "img/sol-select-3-9.svg": "760cb87d5411ac61",
     "img/splash.png": "b997a2fdf48e2d69",
-    "kit.js": "2bfabf2f33f0673f",
-    "main.js": "9de2c2e8788eb6bf",
-    "menu.js": "86570fa9b4713327",
-    "mines.js": "e3e084aef5b53d3c",
-    "mod.json": "83772b7037a693e3",
-    "sol.js": "05232037b5b366bf",
+    "kit.js": "2459535c8ea45a8a",
+    "main.js": "4d16472aaa2c4fe4",
+    "menu.js": "7f539a956b6c1d9a",
+    "mines.js": "53ad9e30ecac29a8",
+    "mod.json": "433fbf9dfa3e359a",
+    "sol.js": "90ecc34495972f53",
     "sounds/chord.mp3": "d8b0a144af7593f3",
     "sounds/clippy.mp3": "46e9cb66f610d86c",
     "sounds/ding.mp3": "32c63fbd6b947c6a",
@@ -337,50 +337,51 @@
     "sounds/start.mp3": "0699c6b9506851a5",
     "sounds/startup.mp3": "fc48ee7e1528328b",
     "sounds/tada.mp3": "b7b06be281de0c56",
-    "taskbar.js": "82ad5f933da78751",
-    "window.js": "1c239e2af6050f40"
+    "taskbar.js": "6632ec475307a882",
+    "window.js": "da3f6ea18875b4d2"
   },
   "workspace-chrome": {
-    "archive.svg": "372fb79cd824595f",
-    "branch.svg": "73fb0690b3f75e29",
-    "check.svg": "68172ff9752f6223",
-    "chevron-down.svg": "50568ece8b1e23fd",
-    "chevron-left.svg": "7e27f872a131e624",
-    "chevron-right.svg": "89ee99f728454128",
-    "circle-check.svg": "26b27003f40d0313",
-    "clock.svg": "a254a9f23e1cf652",
-    "file-text.svg": "503fbc67042deb50",
-    "files.svg": "cf3222633deb7514",
-    "folder-plus.svg": "9f8916b52869a69b",
-    "folder.svg": "d3be868b5d88e277",
-    "git-branch.svg": "69990b6a460cce1f",
-    "git-compare.svg": "2d282eed2b10ead6",
-    "layers.svg": "ac9cfe1d5b6ad048",
-    "main.js": "2209012f93fc170c",
-    "minus.svg": "c331252617131354",
-    "mod.json": "83772b7037a693e3",
-    "monitor.svg": "428f2cb5ba8bf35e",
-    "panel-left.svg": "2e701d578471f6e1",
-    "panel-right.svg": "403750a5a0c01b3f",
-    "pin-off.svg": "fef1281185accde2",
-    "pin.svg": "076d2883d3006e9a",
-    "plus.svg": "709f206fce4b9f8e",
-    "search.svg": "0330d933341d59d3",
-    "server.svg": "fc3a51132acb5161",
-    "settings.svg": "ee7873a1d6a744f6",
-    "sidebar.svg": "9b4bd4a1995d95d6",
-    "spinner.svg": "8c0fa4ed30c7f3a4",
-    "square-pen.svg": "a3dd692a72fc5efa",
-    "square.svg": "f6e8a793d1552c9e",
-    "terminal.svg": "2b9c64ba3a36813b",
-    "x.svg": "83d1c34a880ea5b4"
+    "archive.svg": "2cce972bb43c2514",
+    "branch.svg": "af053a46f40e1c6c",
+    "check.svg": "a6dd58e3111b8d18",
+    "chevron-down.svg": "43b9f11a785c8653",
+    "chevron-left.svg": "8e9a032e4948d93f",
+    "chevron-right.svg": "7867764fc431794c",
+    "circle-check.svg": "6ddf9a07d6108f72",
+    "clock.svg": "9b89a8be2e490bb6",
+    "file-text.svg": "10c4327225ab8285",
+    "files.svg": "f5f18b5ce84aabdd",
+    "folder-plus.svg": "566ae42bf54349de",
+    "folder.svg": "64e7b5165472b129",
+    "git-branch.svg": "4755be35a17a666b",
+    "git-compare.svg": "695c80dd79512403",
+    "layers.svg": "10b2f6a8868f3320",
+    "main.js": "7449619c284351c5",
+    "minus.svg": "9f34bc47ac7d5194",
+    "mod.json": "433fbf9dfa3e359a",
+    "monitor.svg": "dfa84aaf3437b005",
+    "panel-bottom.svg": "06654105db59829d",
+    "panel-left.svg": "4ac40d4f8fb48066",
+    "panel-right.svg": "d152a257d0b43bfc",
+    "pin-off.svg": "7a8c130e50675238",
+    "pin.svg": "164319cfd4d68176",
+    "plus.svg": "780626bfae0a5bdd",
+    "search.svg": "fc64c93fad23ffea",
+    "server.svg": "f53e311668439044",
+    "settings.svg": "be23996087281eb3",
+    "sidebar.svg": "e85663fd6dd097bd",
+    "spinner.svg": "84f48aa9264eaa66",
+    "square-pen.svg": "7e31c374f3deb0d1",
+    "square.svg": "119c2ae8c3e90312",
+    "terminal.svg": "d2bb218585aa7191",
+    "x.svg": "b371ad85aff6b5ff"
   },
   "workspace-status": {
-    "main.js": "ad3ed23b1c3d07c0",
-    "mod.json": "83772b7037a693e3"
+    "main.js": "a1db108171cdb9d7",
+    "mod.json": "433fbf9dfa3e359a"
   },
   "worktree": {
-    "main.js": "7183a828158a1fb2",
-    "mod.json": "83772b7037a693e3"
+    "main.js": "59cfc4e41224f44c",
+    "mod.json": "433fbf9dfa3e359a"
   }
 }
