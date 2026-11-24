@@ -1,6 +1,26 @@
 import { View, div } from "gpui-kit";
 import { v_flex, h_flex } from "gpui-base";
-import { closeOverlay, focused, hc, nextCommand, props, run, theme } from "herdr";
+import { closeOverlay, focused, hc, layout, nextCommand, props, run, setShared, shared, theme, window as appWindow } from "herdr";
+
+function findNode(node, id) {
+  if (node?.id === id) return node;
+  for (const child of node?.children ?? []) {
+    const hit = findNode(child, id);
+    if (hit) return hit;
+  }
+  return null;
+}
+
+// Same as the sidebar's own button: fold to the rail, or back to the width it had.
+// The rail is defined by width (< 160px), so this also unfolds a dragged-narrow sidebar.
+function toggleSidebarRail() {
+  const width = findNode(layout(), "sidebar")?.size?.px;
+  if (width == null) return;
+  const narrow = width < 160;
+  if (!narrow) setShared("sidebar.width", width);
+  setShared("sidebar.collapsed", !narrow);
+  run("layout.resize", { id: "sidebar", px: narrow ? (shared("sidebar.width") ?? 268) : appWindow()?.platform === "macos" ? 76 : 44 });
+}
 
 // Edit these two things to make the example yours. Only repeatable actions
 // start a timer: the first key after Ctrl+B can take as long as you like.
@@ -23,6 +43,7 @@ const BINDINGS = [
   ["J", "Next space", "space.next", {}, true],
   ["K", "Previous space", "space.prev", {}, true],
   ["z", "Zoom pane", "pane.zoom"],
+  ["b", "Collapse sidebar", toggleSidebarRail],
   ["d", "Minimize window", "window.minimize"],
   ...Array.from({ length: 10 }, (_, i) => [String(i), `Tab ${i === 0 ? 10 : i}`, "tab.select", { index: i === 0 ? 10 : i }]),
 ];
@@ -94,7 +115,8 @@ export default class TmuxPrefix extends View {
     }
     const [, , command, args = {}, repeatable = false] = binding;
     if (!repeatable) this.dismiss();
-    run(command, args);
+    if (typeof command === "function") command();
+    else run(command, args);
     if (repeatable) {
       this.repeat = true;
       const generation = ++this.generation;
