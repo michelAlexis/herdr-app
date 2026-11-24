@@ -25,5 +25,7 @@ layouts/*
 !layouts/.state/
 mods/*
 !mods/tmux-prefix/
+!mods/tasks/
+mods/*.d.ts
 themes/*
 !themes/catppuccin-frappe.json
