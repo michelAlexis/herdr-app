@@ -1,7 +1,29 @@
+# runtime state
 herdr-app.sock
-window.json
 view.json
+window.json
+windows.json
 shared.json
+data/
+telemetry/
+*.error
+*.reset-*
+*.corrupt-*
+
+# rewritten by Herdr on every start
 AGENTS.md
-data/*
-telemetry/*
+*.d.ts
+jsconfig.json
+frame/
+icons/
+installed.json
+seen.json
+update-notes*
+
+# shipped content: ignore all, allow only yours
+layouts/*
+!layouts/.state/
+mods/*
+!mods/tmux-prefix/
+themes/*
+!themes/catppuccin-frappe.json
